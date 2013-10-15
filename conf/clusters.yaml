@@ -2,15 +2,15 @@
 # CLUSTERS CONFIG FILE
 ################################################################################
 
-nimbus.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu
+nimbus.image: "us-west-2/ami-d2c15fe2"         #64-bit ubuntu
 nimbus.hardware: "m1.large"
 
 supervisor.count: 2
-supervisor.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu on eu-east-1
+supervisor.image: "us-west-2/ami-d2c15fe2"         #64-bit ubuntu on eu-east-2
 supervisor.hardware: "m1.large"
 #supervisor.spot.price: 1.60
 
 
 zookeeper.count: 1
-zookeeper.image: "us-east-1/ami-d726abbe"         #64-bit ubuntu
+zookeeper.image: "us-west-2/ami-d2c15fe2"         #64-bit ubuntu
 zookeeper.hardware: "m1.large"
